@@ -17,3 +17,7 @@
 .bitcoin-img-container{
     background-image: url('https://i.postimg.cc/x8PNL8Mq/bitcoinbaby-x4.jpg');
 }
+
+.plans-container--slider{
+    overflow-x: hidden;
+}
