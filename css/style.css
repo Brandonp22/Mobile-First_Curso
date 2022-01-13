@@ -464,7 +464,7 @@ main{
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.recommended{
+.type-plan{
     position: absolute;
     width: 100px;
     height: 31px;
@@ -475,9 +475,22 @@ main{
     font-family: 'Inter', sans-serif;
     padding: 0 6px;
     padding-top: 8px;
-    background-color: var(--bitcoin-orange);
     border-radius: 8px;
+}
+
+.basic{
+    background-color: var(--secondary-blue);
     color: var(--just-white);
+}
+
+.recommended{
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+}
+
+.premium{
+    background-color: var(--warm-black);
+    color: var(--bitcoin-orange);
 }
 
 .plan-card--title{
