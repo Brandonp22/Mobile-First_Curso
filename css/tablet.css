@@ -1,0 +1,19 @@
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider{
+    justify-content: center;
+}
+
+.bitcoin-img-container{
+    background-image: url('https://i.postimg.cc/x8PNL8Mq/bitcoinbaby-x4.jpg');
+}
